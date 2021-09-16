@@ -1,0 +1,67 @@
+body{
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+    font-family: 'Spartan';
+    Font-size: 15px;
+}
+
+:root{
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.flex-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+    padding: 50px 0 0 120px;
+}
+
+.sub-container1{
+  /*  display: flex;
+    flex-direction: column; */
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 34px;
+   text-align: left;
+   width: 70%;
+}
+
+.sub-container2{
+    color: var(--Dark-Grayish-Magenta);
+    width: 75%;
+    padding: 0 0 80px 0;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 52px;
+    width: 800px;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 5px;
+    margin: 85px 100px 0 0;
+}
+
+.display-stars{
+    display: flex;
+    flex-direction: row; 
+    padding: 10px 0 0 40px;
+   
+}
+
+.text-styling{
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: bold;
+    padding: 0 0 0 20px;
+}
+
+.star-pad{
+    padding: 0 0 0 10px;
+}
+
+.last-star{
+    padding: 5px 0 0 10px;
+}
